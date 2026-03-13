@@ -1,0 +1,53 @@
+/* Basic styling for the todo list */
+.todo-app {
+  max-width: 400px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #61dafb;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-list li.done span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-list li button {
+  background: transparent;
+  border: none;
+  color: #888;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
