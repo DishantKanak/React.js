@@ -1,0 +1,25 @@
+.comment-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.comment-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* remove redundant textarea style now using Bootstrap */
+
+.comment-list {
+  padding: 0;
+  list-style: none;
+}
+
+.comment-list .delete-btn {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  font-size: 0.9rem;
+}
