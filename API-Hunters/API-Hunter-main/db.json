@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "body": "This is a sample post"
+    },
+    {
+      "id": 2,
+      "title": "API Hunter",
+      "body": "Testing APIs with React"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "body": "Great post!"
+    }
+  ]
+}
